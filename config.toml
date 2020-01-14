@@ -63,6 +63,9 @@ googleAnalytics = ""
 		subtitle   = "A truly distributed, linear scalable, lighting-fast graph database."
 		buttonText = "Get Started"
 
+	# Footer section
+	[params.footer]
+
 
 	# About section
 	[params.about]
