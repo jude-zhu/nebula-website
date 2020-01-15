@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Hugo Creative Theme</title>
+    <link>http://127.0.0.1:1313/</link>
+    <description>Recent content on Hugo Creative Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2019 17:29:40 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://127.0.0.1:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello</title>
-      <link>http://example.org/posts/hello/</link>
-      <pubDate>Mon, 16 Dec 2019 17:29:40 +0800</pubDate>
+      <link>http://127.0.0.1:1313/posts/hello/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/hello/</guid>
-      <description></description>
+      <guid>http://127.0.0.1:1313/posts/hello/</guid>
+      <description>Hello </description>
     </item>
     
   </channel>

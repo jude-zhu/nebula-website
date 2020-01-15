@@ -1,0 +1,37 @@
+{{ define "main" }}
+<main class="blog-list">
+    <div class="wrapper">
+        <h3>Nebula Graph Blog</h3>
+        <ul class="list">
+            {{ range .Pages }}
+                <li class="blog-summary">
+                    <a class="row" href="{{.Permalink}}">
+                        <div class="col-xs-4 col-md-3 picture">
+                            {{ with .Resources }}
+                                {{ with .GetMatch "{*.jpg,*.png,*.jpeg}" }}
+                                    {{ $cover := .Resize "600x" }}
+                                    {{ with $cover }}
+                                        <img src="{{ .Permalink }}"/>      
+                                    {{ end }} 
+                                {{ else }}
+                                    {{ with .GetMatch "{thumbnail.png}" }}
+                                        {{ $cover := .Resize "600x" }}
+                                        {{ with $cover }}
+                                            <img src="{{ .Permalink }}"/>      
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                        <div class="col-xs-8 col-md-9 text">
+                            <h3 href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</h3>
+                            <p class="pc-content">{{ .Summary | truncate 300 }}</p>
+                            <p class="mobile-content">{{ .Summary | truncate 50 }}</p>
+                        </div>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+</main>
+{{ end }}

@@ -1,4 +1,4 @@
-baseurl = "http://192.168.3.38/"
+baseurl = "http://127.0.0.1:1313/"
 languageCode = "en-us"
 title = "Hugo Creative Theme"
 theme = "creative"
@@ -47,8 +47,10 @@ googleAnalytics = ""
 			title = "Content"
 			[[params.navigation.links.links]]
 				title = "Blog"
+				link = "/posts"
 			[[params.navigation.links.links]]
 				title = "Docs"
+				link = "https://github.com/vesoft-inc/nebula#documentation"
 		[[params.navigation.links]]
 			title = "Forum"
 			# services  = "Services"

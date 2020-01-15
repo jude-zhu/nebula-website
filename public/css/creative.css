@@ -489,8 +489,3 @@ body {
     overflow: visible;
     position: relative;
 }
-
-/* fix bootstrap navbar submenu in mobile */
-.dropdown:hover .dropdown-menu {
-    display: block;
- }

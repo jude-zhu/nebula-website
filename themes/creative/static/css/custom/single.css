@@ -1,0 +1,47 @@
+.blog-detail {
+  height: 100%;
+  padding-top: 50px;
+  background-image: url('../../img/header.png');
+  overflow: auto;
+}
+
+.blog-detail .wrapper {
+  min-height: 100%;
+  padding-bottom: 24px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.blog-content img {
+  width: 100%;
+}
+
+@media(min-width: 768px) {
+  .blog-detail .blog-content {
+    margin: auto;
+    width: 960px;
+    padding-top: 36px;
+  }
+}
+
+@media(max-width: 767px) {
+  .blog-detail .blog-content {
+    padding: 0 24px;
+  }
+
+  h1 {
+    font-size: 24px !important;
+  }
+
+  h2 {
+    font-size: 20px
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}

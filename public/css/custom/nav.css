@@ -8,14 +8,6 @@
 }
 
 @media(min-width: 768px) {
-  .navbar {
-    background: url('../../img/header.png') center;
-  }
-
-  .navbar.affix {
-    background: #fff;
-  }
-  
   .navbar-brand {
     width: 150px;
     height: 50px;
