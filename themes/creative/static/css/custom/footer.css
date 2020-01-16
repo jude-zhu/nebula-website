@@ -61,7 +61,13 @@ ul.social >li >a:hover {
     text-decoration: none;
     background-color: "@link-hover-color";
 }
-
+.wechat {
+    text-align: center;
+}
+.wechat img{
+    width: 100%;
+    max-width: 350px;
+}
 @media(max-width: 768px) {
     .social >li {
         min-width: 50%;

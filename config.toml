@@ -100,7 +100,8 @@ googleAnalytics = ""
 			[[params.footer.social.links]]
 					title = "WeChat Profile"
 					class = "icon fa fa-wechat"
-					id = "#wechatModal"
+					modal = "btn-lg"
+					id = "#myModal"
 					target = "_blank"
 		[[params.footer.community]]
 			title = "Community"

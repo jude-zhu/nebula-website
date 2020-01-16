@@ -10,7 +10,7 @@
                             {{ if .links }}
                                 {{ range .links }}
                                     <li>
-                                        <a href="{{.link}}" title="{{.title}}" id="{{.id}}">
+                                        <a href="{{.link}}" title="{{.title}}" class="{{.modal}}" data-toggle="modal"  data-target="{{.id}}">
                                             <span class="{{.class}}"></span>
                                         </a>
                                     </li>
@@ -49,11 +49,26 @@
                         {{ end }}
                     </ul>
                 </div>
-
             </div><!--/.row -->
         </div><!--/.container-->
 
         <p align="center" style="margin-top: 20px;color:#878B91;">
             Copyright &copy;2020 VESoft Inc
         </p>
+
+    <!-- modal（WeChat） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+               
+                <div class="modal-body wechat">
+                    <img src="../../img/wechat.png">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
