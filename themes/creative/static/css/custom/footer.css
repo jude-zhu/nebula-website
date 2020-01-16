@@ -5,16 +5,24 @@
 
 .row-content >h3 {
     color: #DDD;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 24px;
     text-align: center;
     margin: 40px 0 30px 34px;
 }
 
-.row-content >ul {
-    font-size: 20px;
+.row-content .row-content-text {
+    color: #878B91;
+    font-size: 16px;
     line-height: 24px;
+    text-align: left;
+    margin: 40px 0 30px 34px;
+}
+
+.row-content >ul {
+    font-size: 18px;
+    line-height: 20px;
 }
 
 .row-content >ul >li {
@@ -23,7 +31,7 @@
     text-align: center;
 }
 .row-content >ul >li >a {
-                color: #878B91;
+    color: #878B91;
 }
 .row-content >ul >li > a:hover {
     text-decoration: none;
@@ -34,21 +42,40 @@ ul.social {
     margin: 0;
     padding: 0;
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
 }
+
 ul.social >li {
-        display: inline-block;
+    flex: 1;
 }
 ul.social >li >a {
     display: inline-block;
     font-size: 38px;
-    line-height: 38px;
+    line-height: 50px;
     border-radius: 36px;
-    background-color: "@gray-light";
     color: #fff;
-    margin: 0 3px 3px 0;
 }
 ul.social >li >a:hover {
     text-decoration: none;
     background-color: "@link-hover-color";
+}
+
+@media(max-width: 768px) {
+    .social >li {
+        min-width: 50%;
+    }
+    .row-content .row-content-text {
+        font-size: 14px;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .row-content >ul{
+        padding: 0;
+        font-size: 16px;
+    }
+    .row-content>h3 {
+        margin: 25px 0;
+    }
 }

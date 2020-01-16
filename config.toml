@@ -67,7 +67,71 @@ googleAnalytics = ""
 
 	# Footer section
 	[params.footer]
-
+		[[params.footer.social]]
+			title = "Follow us on"
+			[[params.footer.social.links]]
+					title = "Twitter Profile"
+					class = "icon fa fa-twitter"
+					link = "https://twitter.com/NebulaGraph"
+					target = "_blank"
+			[[params.footer.social.links]]
+					title = "WeiBo Profile"
+					class = "icon fa fa-weibo"
+					link = "https://weibo.com/nebulagraph"
+					target = "_blank"
+			[[params.footer.social.links]]
+					title = "LinkedIn Profile"
+					class = "icon fa fa-linkedin"
+					link = "https://www.linkedin.com/company/vesoft-nebula-graph/"
+					target = "_blank"
+			[[params.footer.social.links]]
+					title = "YouTube Profile"
+					class = "icon fa fa-youtube"
+					link = "https://www.youtube.com/channel/UC73V8q795eSEMxDX4Pvdwmw"
+					target = "_blank"
+			[[params.footer.social.links]]
+					title = "FaceBook Profile"
+					class = "icon fa fa-facebook"
+					link = "https://www.facebook.com/NebulaGraph/"
+					target = "_blank"
+			[[params.footer.social.links]]
+					title = "WeChat Profile"
+					class = "icon fa fa-wechat"
+					id = "#wechatModal"
+					target = "_blank"
+		[[params.footer.community]]
+			title = "Community"
+			[[params.footer.community.links]]
+					title = "GitHub"
+					link = "https://github.com/vesoft-inc/nebula"
+					target = "_blank"
+			[[params.footer.community.links]]
+					title = "Forum"
+					link = "https://weibo.com/nebulagraph"
+					target = "_blank"
+			[[params.footer.community.links]]
+					title = "Slack"
+					link = "https://www.linkedin.com/company/vesoft-nebula-graph/"
+					target = "_blank"
+		[[params.footer.company]]
+			title = "Company"
+			[[params.footer.company.links]]
+					title = "About"
+					link = "https://github.com/vesoft-inc/nebula"
+					target = "_blank"
+			[[params.footer.company.links]]
+					title = "News"
+					link = "https://weibo.com/nebulagraph"
+					target = "_blank"
+			[[params.footer.company.links]]
+					title = "Contact"
+					link = "https://www.linkedin.com/company/vesoft-nebula-graph/"
+					target = "_blank"
+			[[params.footer.company.links]]
+					title = "Career"
+					link = "https://www.linkedin.com/company/vesoft-nebula-graph/"
+					target = "_blank"
+		
 
 	# About section
 	[params.about]
