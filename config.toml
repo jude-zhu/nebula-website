@@ -1,6 +1,7 @@
 baseurl = "http://127.0.0.1:1313/"
 languageCode = "en-us"
-title = "Hugo Creative Theme"
+title = "Nebula Graph  - An Open Source, Distributed and High Performant Graph Database"
+description = "Featuring horizontal scalability, strong data consistency, high availability, and SQL-like query language, Nebula Graph database enables you to get insight out of your connected data. Get it now. For free"
 theme = "creative"
 googleAnalytics = ""
 
@@ -21,7 +22,6 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Your name"
-	description = "Your description"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -35,14 +35,15 @@ googleAnalytics = ""
 			title = "Solution"
 			[[params.navigation.links.links]]
 				title = "Why Nebula Graph"
+				link = "/#advantage"
 			[[params.navigation.links.links]]
 				title = "Get Started"
 				link = "https://github.com/vesoft-inc/nebula/blob/master/docs/manual-EN/1.overview/2.quick-start/1.get-started.md"
 				target = "_blank"
-			[[params.navigation.links.links]]
-				title = "Use cases"
-		[[params.navigation.links]]
-			title = "Customers"
+			# [[params.navigation.links.links]]
+			# 	title = "Use cases"
+		# [[params.navigation.links]]
+		# 	title = "Customers"
 		[[params.navigation.links]]
 			title = "Content"
 			[[params.navigation.links.links]]
@@ -53,6 +54,8 @@ googleAnalytics = ""
 				link = "https://github.com/vesoft-inc/nebula#documentation"
 		[[params.navigation.links]]
 			title = "Forum"
+			link = "https://discuss.dgraph.io/"
+			target = "_blank"
 			# services  = "Services"
 			# portfolio = "Portfolio"
 			# contact   = "Contact"
@@ -134,38 +137,56 @@ googleAnalytics = ""
 		
 
 	# About section
-	[params.about]
-		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+	[params.advantage]
+		headline    = "Why Nebula"
+		description = "blablablabla..."
 		buttonText  = "Get started!"
 
 
 	# Service section
-	[params.services]
-		headline = "At your service"
+	[params.features]
+		headline = "Nebula Graph Features"
 
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+			[[params.features.list]]
+				pic = "feature1.png"
+				title = "Open Source"
+				description = "We are looking forward to collaborating with the community to popularize and promote the graph database."
 
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+      [[params.features.list]]
+				pic = "feature2.png"
+				title = "High Performance"
+				description = "Nebula Graph provides low latency read and write, while still maintaining high throughput."
 
-		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+			[[params.features.list]]
+				pic = "feature3.png"
+				title = "SQL-like"
+				description = "Nebula Graph's SQL-like query language is easy to understand and powerful enough to meet complex business needs."
 
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+      [[params.features.list]]
+				pic = "feature4.png"
+				title = "Secure"
+				description = "With role-based access control, Nebula Graph only allows authenticated access."
 
+      [[params.features.list]]
+				pic = "feature5.png"
+				title = "Scalable"
+				description = "With shared-nothing distributed architecture, Nebula Graph offers linear scalability."
 
-    # Portfolio modals
+      [[params.features.list]]
+				pic = "feature6.png"
+				title = "Extensible"
+				description = "Nebula Graph supports multiple storage engine types. The query language can be extended to support new algorithms."
+
+      [[params.features.list]]
+				pic = "feature7.png"
+				title = "Transactional"
+				description = "With role-based access control, Nebula Graph only allows authenticated access."
+
+      [[params.features.list]]
+				pic = "feature8.png"
+				title = "Highly Available"
+				description = "Nebula Graph guarantees high availability even in case of failures."
+
 	[params.portfolio.modal]
         client = "Client"
         date = "Date"

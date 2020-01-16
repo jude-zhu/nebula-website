@@ -4,15 +4,15 @@
         {{ partial "header.html" . }}
         {{ end }}
     
-        {{ if .Site.Params.about }}
-        {{ partial "about.html" . }}
+        {{ if .Site.Params.advantage }}
+        {{ partial "advantage.html" . }}
         {{ end }}
     
-        {{ if .Site.Params.services.list }}
-        {{ partial "services.html" . }}
+        {{ if .Site.Params.features.list }}
+        {{ partial "features.html" . }}
         {{ end }}
     
-        {{ if .Site.Data.projects }}
+        <!-- {{ if .Site.Data.projects }}
         {{ partial "portfolio.html" . }}
         {{ end }}
     
@@ -24,9 +24,9 @@
         {{ partial "aside.html" . }}
         {{ end }}
     
-        {{ if .Site.Params.contact }}
+        <!-- {{ if .Site.Params.contact }}
         {{ partial "contact.html" . }}
-        {{ end }}
+        {{ end }} -->
     
         {{ if .Site.Data.projects }}
         {{ partial "modals.html" . }}

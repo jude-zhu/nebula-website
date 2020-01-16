@@ -4,6 +4,7 @@
 @import url('./footer.css');
 @import url('./list.css');
 @import url('./single.css');
+@import url('./features.css');
 
 main {
   height: 100%;
