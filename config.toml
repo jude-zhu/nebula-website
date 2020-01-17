@@ -54,7 +54,7 @@ googleAnalytics = ""
 				link = "https://github.com/vesoft-inc/nebula#documentation"
 		[[params.navigation.links]]
 			title = "Forum"
-			link = "https://discuss.dgraph.io/"
+			link = "https://github.com/vesoft-inc/nebula/issues"
 			target = "_blank"
 			# services  = "Services"
 			# portfolio = "Portfolio"

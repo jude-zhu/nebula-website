@@ -1,10 +1,11 @@
 .foot-wrap {
-    background-color: #373f48;
+    background-color: #000;
     margin-top: 80px;
 }
 
 .row-content >h3 {
-    color: #DDD;
+    color: hsla(0,0%,100%,.9);
+    opacity: .6;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
@@ -31,7 +32,7 @@
     text-align: center;
 }
 .row-content >ul >li >a {
-    color: #878B91;
+    color: hsla(0,0%,100%,.9);
 }
 .row-content >ul >li > a:hover {
     text-decoration: none;
@@ -52,7 +53,7 @@ ul.social >li {
 }
 ul.social >li >a {
     display: inline-block;
-    font-size: 38px;
+    font-size: 30px;
     line-height: 50px;
     border-radius: 36px;
     color: #fff;
