@@ -4,18 +4,14 @@
         <div class="container">
             <div class="row">
                 <div class="row-content col-lg-6 col-sm-4 col-xs-6">
-                    <h3>Follow us on</h3>
+                    <h3>{{ .Site.Params.footer.social.title }}</h3>
                     <ul class="social">
-                        {{ range .Site.Params.footer.social }}
-                            {{ if .links }}
-                                {{ range .links }}
-                                    <li>
-                                        <a href="{{.link}}" title="{{.title}}" class="{{.modal}}" data-toggle="modal"  data-target="{{.id}}">
-                                            <span class="{{.class}}"></span>
-                                        </a>
-                                    </li>
-                                {{ end }}
-                            {{ end }}
+                        {{ range .Site.Params.footer.social.links }}
+                            <li>
+                                <a href="{{.link}}" title="{{.title}}" class="{{.modal}}" data-toggle="modal"  data-target="{{.id}}">
+                                    <span class="{{.class}}"></span>
+                                </a>
+                            </li>
                         {{ end }}
                     </ul>
                     <p class="row-content-text">Keep up with the latest news from Nebula Graph</p>

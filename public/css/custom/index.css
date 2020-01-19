@@ -1,9 +1,0 @@
-/* style defined by ourselves */
-@import url('./nav.css');
-@import url('./header.css');
-@import url('./list.css');
-
-main {
-  height: 100%;
-  width: 100%;
-}
