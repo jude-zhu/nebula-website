@@ -208,6 +208,10 @@ defaultContentLanguageInSubdir = true
         description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
         phone = "123-456-6789"
         email = "feedback@startbootstrap.com"
+			# blog section
+      [languages.en.params.blog]
+        title = "Contents"
+        
 
 ################ 中文配置 ################
   [languages.cn]
@@ -404,3 +408,6 @@ defaultContentLanguageInSubdir = true
       #       date = "Date"
       #       category = "Category"
       #       buttonText = "Close"
+			# blog section
+			[languages.cn.params.blog]
+						title = "目录"

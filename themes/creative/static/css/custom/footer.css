@@ -68,6 +68,9 @@ ul.social >li >a:hover {
     width: 100%;
     max-width: 350px;
 }
+.icon-btn{
+    padding: 0 !important;
+}
 @media(max-width: 768px) {
     .social >li {
         min-width: 50%;
