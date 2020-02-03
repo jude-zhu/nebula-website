@@ -24,6 +24,7 @@ header .get-start:hover {
      box-shadow: 0 0 10px 0 #aaaaaa;
      max-width: 15vw;
      z-index: 2;
+     background: #fff;
  }
 
  .BlogAnchor p {
