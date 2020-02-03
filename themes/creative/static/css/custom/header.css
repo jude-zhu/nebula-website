@@ -21,7 +21,6 @@ header .get-start:hover {
      position: fixed;
      right: 0;
      top: 48px;
-     box-shadow: 0 0 10px 0 #aaaaaa;
      max-width: 15vw;
      z-index: 2;
      background: #fff;

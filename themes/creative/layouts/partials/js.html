@@ -14,3 +14,13 @@
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ "js/creative.js" | relURL }}"></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'https://nebulagraph.trydiscourse.com/',
+                    discourseEmbedUrl: window.location.href };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>

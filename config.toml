@@ -1,4 +1,4 @@
-baseurl = "http://127.0.0.1:1313/"
+baseurl = "http://nebula-graph.io"
 title = "Nebula Graph  - An Open Source, Distributed and High Performant Graph Database"
 description = "Featuring horizontal scalability, strong data consistency, high availability, and SQL-like query language, Nebula Graph database enables you to get insight out of your connected data. Get it now. For free"
 theme = "creative"
@@ -59,7 +59,7 @@ defaultContentLanguageInSubdir = true
             link = "https://github.com/vesoft-inc/nebula#documentation"
         [[languages.en.params.navigation.links]]
           title = "Forum"
-          link = "https://github.com/vesoft-inc/nebula/issues"
+          link = "https://nebulagraph.trydiscourse.com/"
           target = "_blank"
         [[languages.en.params.navigation.links]]
           title = "语言"
@@ -120,7 +120,7 @@ defaultContentLanguageInSubdir = true
               target = "_blank"
           [[languages.en.params.footer.community.links]]
               title = "Forum"
-              link = "https://github.com/vesoft-inc/nebula/issues"
+              link = "https://nebulagraph.trydiscourse.com/"
               target = "_blank"
           [[languages.en.params.footer.community.links]]
               title = "Slack"
@@ -265,7 +265,7 @@ defaultContentLanguageInSubdir = true
             link = "https://github.com/vesoft-inc/nebula#documentation"
         [[languages.cn.params.navigation.links]]
           title = "论坛"
-          link = "https://github.com/vesoft-inc/nebula/issues"
+          link = "https://nebulagraph.trydiscourse.com/"
           target = "_blank"
         [[languages.cn.params.navigation.links]]
           title = "Language"
