@@ -29,7 +29,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 {{ "<![endif]-->" | safeHTML }}
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script type="text/javascript">
  //是否显示导航栏
@@ -40,8 +39,9 @@
  var addSNToTitle = true;
 
  $(document).ready(function(){
-    var urlArr = window.location.pathname.split('/')
-    if(urlArr[2] == 'posts'){
+    var pathname = window.location.pathname
+    var isEnglish = pathname.includes('/en/')
+    if(pathname.includes('posts')){
         var h1s = $("body").find("h1");
         var h2s = $("body").find("h2");
         var h3s = $("body").find("h3");
@@ -65,7 +65,7 @@
         if(vH1Tag == null){
                 return;
         }
-        var anchorTitle = urlArr[1]== 'en' ? "Contents▲": "目录▲";
+        var anchorTitle = isEnglish ? "Contents▲": "目录▲";
         console.log(anchorTitle)
         $("body").prepend('<div class="BlogAnchor">' + 
                 '<p>' + 
@@ -102,10 +102,10 @@
         $("#AnchorContentToggle").click(function(){
                 var text = $(this).html();
                 if(text=="目录▲"||text=="Contents▲"){
-                        var anchorTitle = urlArr[1]== 'cn' ? "目录▼": "Contents▼";
+                        var anchorTitle = isEnglish ? "Contents▼" : "目录▼";
                         $(this).html(anchorTitle);
                 }else{
-                        var anchorTitle = urlArr[1]== 'en' ? "Contents▲": "目录▲";
+                        var anchorTitle = isEnglish ? "Contents▲": "目录▲";
                         $(this).html(anchorTitle);
                 }
                 $("#AnchorContent").toggle();
