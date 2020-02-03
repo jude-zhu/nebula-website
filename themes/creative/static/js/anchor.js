@@ -10,14 +10,14 @@ $(document).ready(function () {
         var isEnglish = pathname.includes('/en/')
         if (pathname.includes('posts')) {
                 var $wrapper = $(".wrapper");
-                var h1s = $wrapper.find("h1");
-                var h2s = $wrapper.find("h2");
-                var h3s = $wrapper.find("h3");
-                var h4s = $wrapper.find("h4");
-                var h5s = $wrapper.find("h5");
-                var h6s = $wrapper.find("h6");
+                var $h1 = $wrapper.find("h1");
+                var $h2 = $wrapper.find("h2");
+                var $h3 = $wrapper.find("h3");
+                var $h4 = $wrapper.find("h4");
+                var $h5 = $wrapper.find("h5");
+                var $h6 = $wrapper.find("h6");
 
-                var headCounts = [h1s.length, h2s.length, h3s.length, h4s.length, h5s.length, h6s.length];
+                var headCounts = [$h1.length, $h2.length, $h3.length, $h4.length, $h5.length, $h6.length];
                 var vH1Tag = null;
                 var vH2Tag = null;
                 for (var i = 0; i < headCounts.length; i++) {

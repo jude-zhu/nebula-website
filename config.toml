@@ -3,10 +3,14 @@ title = "Nebula Graph  - An Open Source, Distributed and High Performant Graph D
 description = "Featuring horizontal scalability, strong data consistency, high availability, and SQL-like query language, Nebula Graph database enables you to get insight out of your connected data. Get it now. For free"
 theme = "creative"
 googleAnalytics = ""
-DefaultContentLanguage = "cn"
-defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "xxx"
+defaultContentLanguageInSubdir = false
 
 [languages]
+################ init Config ################
+  [languages.xxx]
+    contentDir = "content/xxx"
+
 ################ English Config ################
   [languages.en]
     contentDir = "content/en"
