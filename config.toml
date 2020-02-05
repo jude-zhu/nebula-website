@@ -63,7 +63,7 @@ defaultContentLanguageInSubdir = false
             link = "https://github.com/vesoft-inc/nebula#documentation"
         [[languages.en.params.navigation.links]]
           title = "Forum"
-          link = "https://nebulagraph.trydiscourse.com/"
+          link = "https://discuss.nebula-graph.io/"
           target = "_blank"
         [[languages.en.params.navigation.links]]
           title = "语言"
@@ -124,7 +124,7 @@ defaultContentLanguageInSubdir = false
               target = "_blank"
           [[languages.en.params.footer.community.links]]
               title = "Forum"
-              link = "https://nebulagraph.trydiscourse.com/"
+              link = "https://discuss.nebula-graph.io/"
               target = "_blank"
           [[languages.en.params.footer.community.links]]
               title = "Slack"
@@ -269,7 +269,7 @@ defaultContentLanguageInSubdir = false
             link = "https://github.com/vesoft-inc/nebula#documentation"
         [[languages.cn.params.navigation.links]]
           title = "论坛"
-          link = "https://nebulagraph.trydiscourse.com/"
+          link = "https://discuss.nebula-graph.io/"
           target = "_blank"
         [[languages.cn.params.navigation.links]]
           title = "Language"
