@@ -31,9 +31,9 @@
         {{ if .Site.Data.projects }}
         {{ partial "modals.html" . }}
         {{ end }}
-
+        {{ if .Site.Params.footer }}
         {{ partial "footer.html" . }}
-
+        {{ end }}
         {{ template "_internal/google_analytics.html" . }}
     </main>
 {{ end }}

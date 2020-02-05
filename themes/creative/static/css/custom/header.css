@@ -23,6 +23,7 @@ header .get-start:hover {
      top: 48px;
      max-width: 15vw;
      z-index: 2;
+     background: #fff;
  }
 
  .BlogAnchor p {
