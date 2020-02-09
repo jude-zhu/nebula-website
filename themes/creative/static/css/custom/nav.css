@@ -21,10 +21,6 @@
   text-decoration: underline;
 }
 
-.dropdown-menu>li>a:focus {
-  background-color: #222;
-}
-
 @media(min-width: 768px) {
   .navbar {
     background: url('../../img/header.png') center;

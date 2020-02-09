@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main class="blog-list">
     <div class="wrapper">
-        <h3>Nebula Graph Blog</h3>
+        <h3>{{ .Site.Params.blogTitle }}</h3>
         <ul class="list">
             {{ range .Pages }}
                 <li class="blog-summary">

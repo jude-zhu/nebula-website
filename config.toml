@@ -1,6 +1,5 @@
 baseurl = "http://nebula-graph.io"
 title = "Nebula Graph  - An Open Source, Distributed and High Performant Graph Database"
-description = "Featuring horizontal scalability, strong data consistency, high availability, and SQL-like query language, Nebula Graph database enables you to get insight out of your connected data. Get it now. For free"
 theme = "creative"
 googleAnalytics = ""
 DefaultContentLanguage = "default"  ###judge browser language 
@@ -30,10 +29,14 @@ defaultContentLanguageInSubdir = false
 
       # To provide some metadata for search engines feel free to add some
       # information about you and your website.
-      name = "Your name"
+
+      description = "Featuring horizontal scalability, strong data consistency, high availability, and SQL-like query language, Nebula Graph database enables you to get insight out of your connected data. Get it now. For free"
+      name = "Nebula Graph"
 
       # The path must be relative to the static folder
       favicon = "favicon.ico"
+
+      blogTitle = "Nebula Graph Blog"
 
 
       # Navigation
@@ -238,11 +241,13 @@ defaultContentLanguageInSubdir = false
 
       # To provide some metadata for search engines feel free to add some
       # information about you and your website.
-      name = "Your name"
+      description = "水平扩展特性，强数据一致性，高可用，类SQL查询语言。Nebula让你洞察数据之间的联系。赶快免费使用它吧。"
+      name = "Nebula Graph"
 
       # The path must be relative to the static folder
       favicon = "favicon.ico"
 
+      blogTitle = "Nebula Graph 博客"
 
       # Navigation
       [languages.cn.params.navigation]

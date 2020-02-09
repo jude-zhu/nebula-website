@@ -1,0 +1,32 @@
+name:
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Github Action
+      uses: actions/checkout@master
+    
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.62.2'
+
+    - name: Setup sshpass
+      run: sudo apt-get install sshpass
+
+    - name: Build
+      run: hugo --minify -d nebula-website
+
+    - name: Deploy
+      uses: garygrossgarten/github-action-scp@release
+      with:
+          local: nebula-website
+          remote: /home/vesoft/nebula-website
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER_NAME }}
+          password: ${{ secrets.PASSWORD }}
