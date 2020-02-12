@@ -1,7 +1,8 @@
 ---
-title: "每周看点"
+title: "Pick of the Week'20 | 第 2 周看点--Nebula Graph UI 内测中"
 date: 2020-01-10
 ---
+# Pick of the Week'20 | 第 2 周看点--Nebula Graph UI 内测中
 
 ![每周看点](https://user-images.githubusercontent.com/56643819/69411498-0ae7ef00-0d48-11ea-87fd-d0ddad4dcdf4.png)
 
